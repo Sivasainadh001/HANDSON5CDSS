@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'merriweather',serif;
+}
+body {
+    background-image:url("./shara\ desert.jpg");
+    background-size: cover;
+}
+.navbar {
+    width:auto;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+.logo {
+    width: 4vw;
+    margin-left: 100px;
+}
+.menu {
+    float:right;
+    display: flex;
+    margin-right: 150px;
+    align-items: center;
+    color:white;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-top: 10px;
+
+}
+.oo1 {
+    float: left;
+    margin-left: 1320px;
+    display: flex;
+    position: absolute;
+    margin-top: -58px;
+
+}
+.item {
+    padding-left: 80px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    
+}
+.content {
+    width: auto;
+    margin-left: 80px;
+    margin-top: 250px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+
+    color: white;
+}
+button {
+    width: 220px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 1px solid white;
+    
+}
+.imgs {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 10px;
+    color: white;
+}
+#o1 {
+    width: 220px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-left: 30px;
+    transform:translate(10px,10px) ;
+}
+#o1:hover {
+    transform: translate(10px,-10px);
+}
+
+.imggo1{
+    background-image: url("pic-1.png");
+    background-size: cover;
+}
+
+.imggo2{
+    background-image: url("pic-2.png");
+    background-size: cover;
+}
+
+.imggo3{
+    background-image: url("pic-3.png");
+    background-size: cover;
+
+}
+
+.imggo4{
+    background-image: url("pic-4.png");
+    background-size: cover;
+
+}
+#ss {
+    line-height: 20px;
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.f1 { 
+    font-size: 7vw;
+}
+#ss2 {
+    font-size: 1vw;
+    line-height: 30px;
+    font-weight: 100px;
+}
+
+
+
+
+@media  only screen  and (max-width:450px) and (min-width:150px)
+{
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'merriweather',serif;
+    }
+    body {
+        background-image:url("./shara\ desert.jpg");
+        background-size: cover;
+    }
+    .navbar {
+        height: 80px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .logo {
+        width: 15vw;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .menu {
+        margin-left: 300px;
+        line-height: 20px;
+        margin-top: -60px;
+        font-size: 12px;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+    .item {
+        padding-left: 0px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .oo1 {
+        display: flex;
+        flex-direction:column;
+        float: left;
+        margin-left: 340px;
+        line-height: 20px;
+        margin-top: 20px;
+
+    
+    }
+    .content {
+        width: auto;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 15px;
+        color: white;
+    }
+    button {
+        width: 220px;
+        height: 40px;
+        background-color: whitesmoke;
+        border-radius: 30px;
+        font-weight: bold;
+        border: 1px solid white;
+        
+    }
+    .imgs {
+        
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:center;
+        padding: 10px;
+        color: white;
+    }
+    #ss {
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .f1 { 
+        font-size: 10vw;
+    }
+    #ss2 {
+        font-size: 4.5vw;
+        line-height: 30px;
+        font-family: 'merriwather',serif;
+        margin-right: 20px;
+    }
+}
+
+
+@media  only screen and ( max-width:1050px) and (min-width:450px)
+ {
+ 
+   
+    .navbar {
+        height: 50px;
+        margin-top: 20px;
+        
+    }
+    .logo {
+        width: 6vw;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .menu {
+        float:left;
+        display: flex;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: -55px;
+        align-items: center;
+        color:white;
+        font-weight: bolder;
+        font-size: 14px;
+        padding-top: 10px;
+    
+    }
+    .oo1 {
+        float: left;
+        margin-left: 800px;
+        display: flex;
+        position: absolute;
+        margin-top: -58px;
+    
+    }
+    .item {
+        padding-left: 50px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .content {
+        width: auto;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        color: white;
+    }
+   /* button {
+        width: 220px;
+        height: 40px;
+        background-color: whitesmoke;
+        border-radius: 30px;
+        font-weight: bold;
+        border: 1px solid white;
+        
+    }*/
+    .imgs {
+        
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        padding: 10px;
+        color: white;
+        margin-top: -50px;
+    }
+    #o1 {
+        width: 450px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 30px;
+        padding-top: 30px;
+        border-radius: 20px;
+        padding-left: 30px;
+        transform:translate(10px,10px) ;
+    }
+    #o1:hover {
+        transform: translate(10px,-10px);
+    }
+    
+    .imggo1{
+        background-image: url("pic-1.png");
+        background-size:480px 230px;
+    }
+    
+    .imggo2{
+        background-image: url("pic-2.png");
+        background-size:480px 230px;
+
+
+    }
+    
+    .imggo3{
+        background-image: url("pic-3.png");
+        background-size:480px 230px;
+        
+
+    
+    }
+    
+    .imggo4{
+        background-image: url("pic-4.png");
+        background-size:480px 230px;
+
+    
+    }
+    #ss {
+        line-height: 20px;
+        font-size: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .f1 { 
+        font-size: 7vw;
+    }
+    #ss2 {
+        font-size: 2vw;
+        line-height: 30px;
+        font-weight: 100px;
+    }
+
+}
+
+    
